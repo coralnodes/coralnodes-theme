@@ -658,11 +658,13 @@ a.navbar-item.bg-yellow:hover {
 	text-align: center;
 }
 .cn-search {
+	padding: 10px;
+	background: #eee;
+}
+.site-header .cn-search {
 	position: absolute;
 	top: 100%;
 	right: 0;
-	padding: 10px;
-	background: #eee;
 	display: none;
 }
 .cn-search input {
@@ -676,6 +678,13 @@ a.navbar-item.bg-yellow:hover {
 	background: var(--color-two);
 	color: #fff;
 	cursor: pointer;
+}
+.error404 .cn-search {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.error404 .cn-search input {
+	width: calc(100% - 70px);
 }
 #content {
 	padding-top: 2rem;

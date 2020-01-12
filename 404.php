@@ -15,7 +15,7 @@ get_header();
 
 		<h1 style="text-align: center">404 Error</h1>
 		<p style="text-align: center; margin-bottom: 1rem">Looks like the page you looked doesn't exist. But no problem. Try visiting our <a href="<?php echo home_url(); ?>">home page</a> or perform a search for what you were looking.</p>
-		
+		<?php get_search_form(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 </div>

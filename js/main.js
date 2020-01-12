@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 (function(){
 
   var searchToggle = document.querySelector('.header-search-toggle');
-  var searchBox = document.querySelector('.cn-search');
+  var searchBox = document.querySelector('.site-header .cn-search');
 
   if ( searchToggle == null || searchBox == null ) {
     return;
