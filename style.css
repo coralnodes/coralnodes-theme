@@ -88,7 +88,7 @@ th {
 	--color-five: #252525;
 	--color-six: #39b54a;
 	--color-seven: #27a055;
-	--color-eight: #757575;
+	--color-eight: #707070;
 }
 
 /*****************/
@@ -1928,7 +1928,6 @@ figure.alignfull {
 	font-size: .6rem;
 	text-align: center;
 }
-
 
 .cat-links {
 	margin-right: 10px;
