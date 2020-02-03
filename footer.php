@@ -30,11 +30,9 @@
 					<div class="column ft-sect">
 						<h4 class="ft-title">Popular Tags</h4>
 						<ul>
-							<li><a href="/tag/web-performance">Web Performance</a></li>
-							<li><a href="/tag/wordpress-themes">WordPress Themes</a></li>
-							<li><a href="/tag/wordpress-plugins">WordPress Plugins</a></li>
-							<li><a href="/tag/analytics">Analytics</a></li>
-							<li><a href="/tag/seo">SEO</a></li>
+							<li><a href="/category/web-performance">Web Performance</a></li>
+							<li><a href="/category/wordpress-themes">WordPress Themes</a></li>
+							<li><a href="/category/wordpress-plugins">WordPress Plugins</a></li>
 						</ul>
 					</div>
 				</div>
