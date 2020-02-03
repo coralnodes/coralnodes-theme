@@ -8,7 +8,7 @@ get_header();
         <?php 
         while(have_posts()) : 
             the_post(); 
-            $cats = get_the_tags(); 
+            $cats = get_categories(); 
         ?>
         <?php
         $aspect_percent = '56.25%';
@@ -28,7 +28,7 @@ get_header();
                 <a href="<?= get_the_permalink() ?>"><?php echo $thumbnail_img ?></a>
                 </div>
                 <div class="postcard-cat">
-                    <a href="<?= get_tag_link($cats[0]->term_id) ?>"><span><?= $cats[0]->name ?></span></a>
+                    <a href="<?= get_category_link($cats[0]->term_id) ?>"><span><?= $cats[0]->name ?></span></a>
                 </div>
             </div>
             <div class="postcard-title">
