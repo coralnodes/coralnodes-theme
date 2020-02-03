@@ -8,7 +8,7 @@ get_header();
         <?php 
         while(have_posts()) : 
             the_post(); 
-            $cats = get_categories(); 
+            $cats = get_the_category(); 
         ?>
         <?php
         $aspect_percent = '56.25%';
